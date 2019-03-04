@@ -52,11 +52,11 @@ Dummy repo and project for Joel Williams
 ```
 -To designate an element class, it looks like
 ```
-<div class='element-id'></div>
+<div class='element-class'></div>
 ```
 -to listen for a click event, use
 ```
-  $(*item to click on*).click(function(*insert on click logic in here*){})
+  $(*item to click on*).click(function(){*insert on click logic in here*})
 ```
 -to get the value of an input, use
 ```
