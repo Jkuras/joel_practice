@@ -32,28 +32,35 @@ Dummy repo and project for Joel Williams
 -All logic (javascript) should be in the file called 'index.js' in the public directory</br>
   -it will go here ->
   ```
-    $(document).ready(function(){*ALL CODE GOES INSIDE HERE*})</br>
+    $(document).ready(function(){*ALL CODE GOES INSIDE HERE*})
   ```
 -All html and css will be in the file index.html, you should not have to do any additional css for this first task</br>
   -I have used elements of Materialize so you can start to see how that works too</br>
 
 ### JQuery quick guide
--to select an element by its ID, use $('#~id here~')</br>
-  -To designate an element id, it looks like
-  ```
-  <div id='element-id'></div>
-  ```
+-to select an element by its ID, use
+```
+  $('#*id-here*')</br>
+```
+-To designate an element id, it looks like
+```
+<div id='element-id'></div>
+```
 -to select an element by its class, use
 ```
   $('.*class-here*')
 ```
+-To designate an element class, it looks like
+```
+<div class='element-id'></div>
+```
 -to listen for a click event, use
 ```
-  $(*item to click on*).click(function(*insert on click logic in here*){})</br>
+  $(*item to click on*).click(function(*insert on click logic in here*){})
 ```
 -to get the value of an input, use
 ```
-  $(~item to read~).val()</br>
+  $(~item to read~).val()
 ```
 -There are a few more Jquery functions youll have to use, but finding those yourself will be good practice
 
@@ -96,3 +103,10 @@ Dummy repo and project for Joel Williams
   ```
   -There are examples of this in the project
 Look through the Materialize website for more examples
+
+### When you have made changes to the repo and are  ready to push your code back up to github
+-Again from the git command line </br>
+-'git add .'</br>
+-'git commit -m "Commit Message, this text can be anything but make sure to include a message here"'</br>
+-'git push origin master'
+-You've pushed your changes to GitHub! Yay!
