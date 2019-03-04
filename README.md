@@ -36,9 +36,10 @@ Dummy repo and project for Joel Williams
 
 ### JQuery quick guide
 -to select an element by its ID, use $('#~id here~')
-  -To designate an element id, it looks like '''
+  -To designate an element id, it looks like
+  ```
   <div id='element-id'></div>
-  '''
+  ```
 -to select an element by its class, use $('.~class here~')
 -to listen for a click event, use $(~item to click on~).click(function(*insert on click logic in here*){})
 -to get the value of an input, use $(~item to read~).val()
