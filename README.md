@@ -40,7 +40,7 @@ Dummy repo and project for Joel Williams
 ### JQuery quick guide
 -to select an element by its ID, use
 ```
-  $('#*id-here*')</br>
+  $('#*id-here*')
 ```
 -To designate an element id, it looks like
 ```
